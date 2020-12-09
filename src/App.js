@@ -1,8 +1,12 @@
 import { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
-import MyNavBar from "./components/Layout/MyNavbar";
-import MyFooter from "./components/Layout/MyFooter";
+import LandingPage from "./components/pages/LandignPage";
+import About from "./components/pages/About";
+import Projects from "./components/pages/Projects";
+import Contact from "./components/pages/Contact";
+import MyNavBar from "./components/layout/MyNavbar";
+import MyFooter from "./components/layout/MyFooter";
 
 import "./App.css";
 
@@ -38,8 +42,32 @@ class App extends Component {
       <Router>
         <MyNavBar />
         <Container className="p-0" fluid={true}>
-          <h1>HELLO WORLD!!</h1>
-
+          <Route
+            exact
+            path="/Portfolio"
+            render={() => (
+              <LandingPage
+                title={this.state.home.title}
+                subTitle={this.state.home.subTitle}
+                memo={this.state.home.memo}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/about"
+            render={() => <About title={this.state.about.title} />}
+          />
+          <Route
+            exact
+            path="/projects"
+            render={() => <Projects title={this.state.projects.title} />}
+          />
+          <Route
+            exact
+            path="/contact"
+            render={() => <Contact title={this.state.contact.title} />}
+          />
           <MyFooter />
         </Container>
       </Router>

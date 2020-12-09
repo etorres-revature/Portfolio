@@ -40,7 +40,7 @@ const MyFooter = () => {
         </Row>
         <Row>
           <Col>
-            <p id="copyright">&copy; 2020 Eric D. Torres Productions</p>
+            <p>&copy; 2020 Eric D. Torres Productions</p>
           </Col>
         </Row>
       </Container>
