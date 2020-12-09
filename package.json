@@ -5,7 +5,7 @@
   "description": "A portfolio of projects outlining my coding journey.",
   "author": "Eric D. Torres",
   "license": "MIT",
-  "homepage": "https://etorres-revature.github.io/React-User_Directory/",
+  "homepage": "https://etorres-revature.github.io/Portfolio/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/etorres-revature/Portfolio"
@@ -16,6 +16,7 @@
     "@testing-library/user-event": "^12.5.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-mdl": "^2.1.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
