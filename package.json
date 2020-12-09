@@ -2,6 +2,14 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "description": "A portfolio of projects outlining my coding journey.",
+  "author": "Eric D. Torres",
+  "license": "MIT",
+  "homepage": "https://etorres-revature.github.io/Portfolio/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etorres-revature/Portfolio"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
