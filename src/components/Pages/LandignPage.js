@@ -1,10 +1,9 @@
-import React from "react"
+import React from "react";
+import Hero from "../../components/Hero";
 
 const LandingPage = (props) => {
   return (
-    <div>
-      <h1>Landing Page</h1>
-    </div>
+    <Hero title={props.title} subTitle={props.subTitle} memo={props.memo} />
   );
 };
 

@@ -22,9 +22,9 @@ class App extends Component {
         { title: "Contact", path: "/contact" },
       ],
       home: {
-        title: "If you can dream it, I can code it",
-        subTitle: "",
-        memo: "Check out my Projects",
+        title: "Front-End Development",
+        subTitle: "If you can dream it, I can code it",
+        memo: "",
       },
       about: {
         title: "More about me",

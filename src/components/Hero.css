@@ -1,0 +1,29 @@
+.jumbotron-fluid {
+  position: relative;
+}
+
+.jumbotron-fluid::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./code-html.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(50%);
+}
+
+.jumbotron-fluid-inside {
+  position: relative;
+}
+
+h1 {
+  color: #fe6e00;
+}
+
+h3 {
+  color: #ffff00;
+  text-decoration: underline;
+}
