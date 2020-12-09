@@ -2,6 +2,7 @@ import { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import MyNavBar from "./components/Layout/MyNavbar";
+import MyFooter from "./components/Layout/MyFooter";
 
 import "./App.css";
 
@@ -38,6 +39,8 @@ class App extends Component {
         <MyNavBar />
         <Container className="p-0" fluid={true}>
           <h1>HELLO WORLD!!</h1>
+
+          <MyFooter />
         </Container>
       </Router>
     );
