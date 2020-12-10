@@ -1,9 +1,12 @@
-import React from "react"
+import React from "react";
+import Hero from "../Hero";
+import Carousel from "../Carousel";
 
-const Projects = () => {
+const Projects = (props) => {
   return (
     <div>
-      <h1>Projects</h1>
+      <Hero title={props.title} />
+      <Carousel />
     </div>
   );
 };

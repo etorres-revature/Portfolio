@@ -4,7 +4,7 @@ import "./Hero.css";
 
 const Hero = (props) => {
   return (
-    <Jumbotron className="bg-transparent jumbotron-fluid p-0 mt-5">
+    <Jumbotron className="bg-transparent jumbotron-fluid p-0">
       <Container fluid={false}>
         <Row className="justify-content-center py-5">
           <Col md={9} sm={12}>
