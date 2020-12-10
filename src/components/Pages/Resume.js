@@ -1,9 +1,12 @@
 import React from "react";
+import Hero from "../Hero"
+import PDFViewer from "../PDFViewer/PDFViewer";
 
-const Resume = () => {
+const Resume = (props) => {
   return (
     <div>
-      <h1>Resume</h1>
+    <Hero title={props.title}/>
+      <PDFViewer />
     </div>
   );
 };

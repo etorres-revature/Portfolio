@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row } from "react-bootstrap";
-import Card from "../components/Card";
+import Card from "./card/Card";
 //TODO import images/screenshots for carousel cards...
 
 class Carousel extends Component {

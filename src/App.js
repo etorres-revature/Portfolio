@@ -1,13 +1,13 @@
 import { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import LandingPage from "./components/pages/LandignPage";
-import About from "./components/pages/About";
 import Projects from "./components/pages/Projects";
+import About from "./components/pages/About";
+import Resume from "./components/pages/Resume";
 import Contact from "./components/pages/Contact";
 import MyNavBar from "./components/layout/MyNavbar";
 import MyFooter from "./components/layout/MyFooter";
-
 import "./App.css";
 
 class App extends Component {
@@ -32,6 +32,9 @@ class App extends Component {
       projects: {
         title: "Sample projects",
       },
+      resume: {
+        title: "EXPERIENCE",
+      },
       contact: {
         title: "Be in touch...",
       },
@@ -42,32 +45,40 @@ class App extends Component {
       <Router>
         <MyNavBar />
         <Container className="p-0" fluid={true}>
-          <Route
-            exact
-            path="/Portfolio"
-            render={() => (
-              <LandingPage
-                title={this.state.home.title}
-                subTitle={this.state.home.subTitle}
-                memo={this.state.home.memo}
-              />
-            )}
-          />
-          <Route
-            exact
-            path="/about"
-            render={() => <About title={this.state.about.title} />}
-          />
-          <Route
-            exact
-            path="/projects"
-            render={() => <Projects title={this.state.projects.title} />}
-          />
-          <Route
-            exact
-            path="/contact"
-            render={() => <Contact title={this.state.contact.title} />}
-          />
+          <Switch>
+            <Route
+              exact
+              path="/Portfolio"
+              render={() => (
+                <LandingPage
+                  title={this.state.home.title}
+                  subTitle={this.state.home.subTitle}
+                  memo={this.state.home.memo}
+                />
+              )}
+            />
+            <Route
+              exact
+              path="/projects"
+              render={() => <Projects title={this.state.projects.title} />}
+            />
+            <Route
+              exact
+              path="/about"
+              render={() => <About title={this.state.about.title} />}
+            />
+            <Route
+              exact
+              path="/resume"
+              render={() => <Resume title={this.state.resume.title} />}
+            />
+
+            <Route
+              exact
+              path="/contact"
+              render={() => <Contact title={this.state.contact.title} />}
+            />
+          </Switch>
           <MyFooter />
         </Container>
       </Router>
