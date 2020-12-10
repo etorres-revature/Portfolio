@@ -5,7 +5,7 @@ import "./MyFooter.css";
 
 const MyFooter = () => {
   return (
-    <footer className="sticky-footer fixed-bottom mt-5 border-top text-center">
+    <footer className="footer mt-5 border-top text-center">
       <Container>
         <Row className="mb-2">
           <Col>Visit me on social media: </Col>

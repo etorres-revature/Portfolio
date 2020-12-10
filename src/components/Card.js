@@ -1,11 +1,12 @@
 import React from "react";
 import CardInfo from "./CardInfo";
+import "./Card.css";
 
 const Card = (props) => {
   return (
-    <div>
+    <div className="d-inline-block g-card" onClick={(e)=>props.click(props.item)}>
       <img
-        className=""
+        className="p-card-img"
         src={props.item.imgSrc}
         alt={props.item.title + "screenshot"}
       />
