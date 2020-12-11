@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../Hero";
-import AboutContent from "../AboutContent";
+import AboutContent from "../Content";
 
 const About = (props) => {
   return (

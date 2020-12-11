@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-const AboutContent = (props) => {
+const Content = (props) => {
   return (
     <Container>
       <Row className="card justify-content-center p-3">
@@ -11,4 +11,4 @@ const AboutContent = (props) => {
   );
 };
 
-export default AboutContent;
+export default Content;
