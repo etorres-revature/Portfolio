@@ -19,8 +19,6 @@ class Contact extends Component {
   }
 
   handleChange = (e) => {
-    console.log(e.target.value);
-
     const target = e.target;
     const value = target.type === "checkbox" ? target.checked : target.value;
     const name = target.name;
@@ -31,7 +29,6 @@ class Contact extends Component {
   };
 
   handleSubmit = (e) => {
-    console.log("inside handlesubmit function");
     e.preventDefault();
 
     this.setState({

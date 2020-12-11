@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../Hero";
 import AboutContent from "../Content";
 
-import resume from "../assets/TorresEricD_IT_resume_11072020.pdf"
+import resume from "../assets/TorresEricD_IT_resume_11072020.pdf";
 
 const About = (props) => {
   return (
@@ -43,13 +43,9 @@ const About = (props) => {
           </p>
           <p class="text-justify">
             Eric is looking to diversify his experience as a fullstack
-            coder/software developer. You can check out his resume
-            <a
-              href={resume}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              here
+            coder/software developer. You can{" "}
+            <a href={resume} target="_blank" rel="noopener noreferrer">
+              check out his resume here
             </a>
           </p>
           <p>
