@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.81e969fa.chunk.css",
+    "main.js": "/Portfolio/static/js/main.d5a99eab.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.d5a99eab.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.896df889.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.896df889.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/Portfolio/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.fdfa2808.chunk.js": "/Portfolio/static/js/2.fdfa2808.chunk.js",
+    "static/js/2.fdfa2808.chunk.js.map": "/Portfolio/static/js/2.fdfa2808.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/Portfolio/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.81e969fa.chunk.css.map": "/Portfolio/static/css/main.81e969fa.chunk.css.map",
+    "static/js/2.fdfa2808.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.fdfa2808.chunk.js.LICENSE.txt",
+    "static/media/TorresEricD_IT_resume_11072020.e38a942c.pdf": "/Portfolio/static/media/TorresEricD_IT_resume_11072020.e38a942c.pdf",
+    "static/media/Hero.css": "/Portfolio/static/media/code-html.cce45eb9.jpg",
+    "static/media/docketmaster.6f47a975.png": "/Portfolio/static/media/docketmaster.6f47a975.png",
+    "static/media/eat-dat-burger-home.6ea0d6e4.png": "/Portfolio/static/media/eat-dat-burger-home.6ea0d6e4.png",
+    "static/media/github-finder.90a8a278.png": "/Portfolio/static/media/github-finder.90a8a278.png",
+    "static/media/lyric-search.352f53c3.png": "/Portfolio/static/media/lyric-search.352f53c3.png",
+    "static/media/number-guess.1f006861.png": "/Portfolio/static/media/number-guess.1f006861.png",
+    "static/media/password-generator.c3328157.png": "/Portfolio/static/media/password-generator.c3328157.png",
+    "static/media/quiz-active.df381d54.png": "/Portfolio/static/media/quiz-active.df381d54.png",
+    "static/media/relaxer.3ca694cc.png": "/Portfolio/static/media/relaxer.3ca694cc.png",
+    "static/media/stock-app.40373a76.png": "/Portfolio/static/media/stock-app.40373a76.png",
+    "static/media/ud-home.980f0d98.png": "/Portfolio/static/media/ud-home.980f0d98.png",
+    "static/media/weather-dashboard.d30e4410.png": "/Portfolio/static/media/weather-dashboard.d30e4410.png",
+    "static/media/web-speech.8856a3b7.png": "/Portfolio/static/media/web-speech.8856a3b7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.896df889.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.fdfa2808.chunk.js",
+    "static/css/main.81e969fa.chunk.css",
+    "static/js/main.d5a99eab.chunk.js"
+  ]
+}
