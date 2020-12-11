@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Hero from "../Hero";
 import Content from "../Content";
 import { Form, Button } from "react-bootstrap";
+import "./Contact.css";
 
 class Contact extends Component {
   constructor(props) {
@@ -28,7 +29,13 @@ class Contact extends Component {
     });
   };
 
-  
+  handleSubmit = (e) => {
+    e.preventDefault();
+
+    this.setState({
+      disabled: true,
+    });
+  };
 
   render() {
     return (

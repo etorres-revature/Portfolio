@@ -1,0 +1,11 @@
+.success-msg {
+  color: #57a773;
+  background-color: #daa520;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #ee6352;
+  background-color: #daa520;
+  padding: 10px 15 px;
+}
