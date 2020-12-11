@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Axios from "axios";
 import Hero from "../Hero";
 import Content from "../Content";
 import { Form, Button } from "react-bootstrap";
@@ -35,8 +36,28 @@ class Contact extends Component {
 
     this.setState({
       disabled: true,
-      emailSent: false,
     });
+
+    Axios.post("localhost:8500/api/email", this.state)
+      .then((res) => {
+        if (res.data.success) {
+          this.setState({
+            disabled: false,
+            emailSent: true,
+          });
+        } else {
+          this.setState({
+            disabled: false,
+            emailSent: true,
+          });
+        }
+      })
+      .catch((err) => {
+        this.setState({
+          disabled: false,
+          emailSent: false,
+        });
+      });
   };
 
   render() {
@@ -86,7 +107,6 @@ class Contact extends Component {
                 onChange={this.handleChange}
               />
             </Form.Group>
-
             <Button
               className="d-inline-block"
               variant="primary"
@@ -94,14 +114,10 @@ class Contact extends Component {
               disabled={this.state.disabled}
             >
               Send Message
-            </Button> 
-
-            {" "}
-
+            </Button>{" "}
             {this.state.emailSent === true && (
               <p className="d-inline success-msg">E-mail sent successfully</p>
             )}
-
             {this.state.emailSent === false && (
               <p className="d-inline err-msg">
                 E-mail was not sent successfully
