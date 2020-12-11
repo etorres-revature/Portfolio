@@ -7,14 +7,14 @@ const CardInfo = (props) => {
 
   return (
     <animated.div className="p-card-info text-wrap mb-5" style={style}>
-      <p className="p-card-title">
+      <p className="p-card-title mb-1">
         <strong>PROJECT TITLE:</strong> {props.title}
       </p>
       <p className="p-card-desc text-wrap">
         <strong>Project Description:</strong> {props.desc}
       </p>
       <a
-        className="alignright"
+        className="alignright mt-1"
         href={props.githubLink}
         target="_blank"
         rel="noopener noreferrer"
@@ -22,7 +22,7 @@ const CardInfo = (props) => {
         GitHub Repo
       </a>
       <a
-        className="alignleft"
+        className="alignleft mt-1"
         href={props.githubLink}
         target="_blank"
         rel="noopener noreferrer"

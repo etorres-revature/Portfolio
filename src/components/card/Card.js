@@ -4,11 +4,14 @@ import "./Card.css";
 
 const Card = (props) => {
   return (
-    <div className="d-inline-block g-card" onClick={(e)=>props.click(props.item)}>
+    <div
+      className="d-inline-block p-card card px-2 py-1 m-3"
+      onClick={(e) => props.click(props.item)}
+    >
       <img
         className="p-card-img"
         src={props.item.imgSrc}
-        alt={props.item.title + "screenshot"}
+        alt={props.item.title + " screenshot"}
       />
       {props.item.selected && (
         <CardInfo
