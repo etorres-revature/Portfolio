@@ -17,8 +17,9 @@ class App extends Component {
       title: "Eric D. Torres",
       headerLinks: [
         { title: "Home", path: "/" },
-        { title: "Projects", path: "/projects" },
         { title: "About", path: "/about" },
+        { title: "Projects", path: "/projects" },
+        { title: "Resume", path: "/resume" },
         { title: "Contact", path: "/contact" },
       ],
       home: {
@@ -38,6 +39,7 @@ class App extends Component {
       contact: {
         title: "Be in touch...",
       },
+      PDFResume: "./assets/TorresEricD_IT_resume_11072020.pdf",
     };
   }
   render() {

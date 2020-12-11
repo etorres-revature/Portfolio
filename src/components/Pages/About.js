@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../Hero";
 import AboutContent from "../Content";
 
-import resume from "../assets/TorresEricD_IT_resume_11072020.pdf";
+import resume from "../../assets/TorresEricD_IT_resume_11072020.pdf";
 
 const About = (props) => {
   return (
