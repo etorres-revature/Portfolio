@@ -1,11 +1,13 @@
 .success-msg {
-  color: #57a773;
-  background-color: #daa520;
+  color: #0e6b0e;
+  font-weight: bold;
+  background-color: #ffff00;
   padding: 10px 15px;
 }
 
 .err-msg {
   color: #ee6352;
-  background-color: #daa520;
+  font-weight: bold;
+  background-color: #ffff00;
   padding: 10px 15 px;
 }

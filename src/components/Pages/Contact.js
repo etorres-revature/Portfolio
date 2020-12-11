@@ -30,10 +30,12 @@ class Contact extends Component {
   };
 
   handleSubmit = (e) => {
+    console.log("inside handlesubmit function");
     e.preventDefault();
 
     this.setState({
       disabled: true,
+      emailSent: false,
     });
   };
 
@@ -84,23 +86,28 @@ class Contact extends Component {
                 onChange={this.handleChange}
               />
             </Form.Group>
+
+            <Button
+              className="d-inline-block"
+              variant="primary"
+              type="submit"
+              disabled={this.state.disabled}
+            >
+              Send Message
+            </Button> 
+
+            {" "}
+
+            {this.state.emailSent === true && (
+              <p className="d-inline success-msg">E-mail sent successfully</p>
+            )}
+
+            {this.state.emailSent === false && (
+              <p className="d-inline err-msg">
+                E-mail was not sent successfully
+              </p>
+            )}
           </Form>
-
-          <Button
-            className="d-inline-block"
-            variant="primary"
-            type="submit"
-            disabled={this.state.disabled}
-          >
-            Send Message
-          </Button>
-
-          {this.state.emailSent === true && (
-            <p className="d-inline success-msg">E-mail sent successfully</p>
-          )}
-          {this.state.emailSent === false && (
-            <p className="d-inline err-msg">E-mail was not sent successfully</p>
-          )}
         </Content>
       </div>
     );
