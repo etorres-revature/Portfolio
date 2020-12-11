@@ -2,6 +2,8 @@ import React from "react";
 import Hero from "../Hero";
 import AboutContent from "../Content";
 
+import resume from "../assets/TorresEricD_IT_resume_11072020.pdf"
+
 const About = (props) => {
   return (
     <div>
@@ -39,17 +41,17 @@ const About = (props) => {
             solo-law firm, Eric has the background and experience to understand
             your unique business needs.
           </p>
-          {/*  <p class="text-justify">
+          <p class="text-justify">
             Eric is looking to diversify his experience as a fullstack
             coder/software developer. You can check out his resume
             <a
-              href="./assets/resume/TorresEricD_IT_resume_09102020.pdf"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
             >
               here
             </a>
-  </p> */}
+          </p>
           <p>
             Feel free to reach out to him at{" "}
             <a href="mailto:etorresnotary@gmail.com">etorresnotary@gmail.com</a>

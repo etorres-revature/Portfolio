@@ -72,7 +72,6 @@ class App extends Component {
               path="/resume"
               render={() => <Resume title={this.state.resume.title} />}
             />
-
             <Route
               exact
               path="/contact"
