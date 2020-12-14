@@ -1,70 +1,116 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Github License](https://img.shields.io/badge/License-MIT_License-brightgreen)
 
-## Available Scripts
+# React.js Portfolio
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+This is a portfolio of my coding projects.  It uses [React.js](https://reactjs.org/docs/getting-started.html) to create a Single Page Application (SPA) and the [react-router-dom npm package](https://www.npmjs.com/package/react-router-dom) to create client-side routing.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [Title](#project-title)
+* [Description](#project-description)
+* [Table of Contents](#table-of-contents)
+* [Installation](#installation-instructions)
+* [Usage](#usage)
+* [Contributing](#guidelines-for-contributing)
+* [Tests](#tests)
+* [Technologies](#technologies-used)
+* [Author](#author)
+* [Questions](#questions)
+* [License](#license)
 
-### `npm test`
+## Installation Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Feel free to borrow from this repository by cloning or forking it when creating your own portfolio.
 
-### `npm run build`
+## Usage 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The [Portfolio](https://etorres-revature.github.io/Portfolio/) is deployed using the [gh-pages npm package](https://www.npmjs.com/package/gh-pages).  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The [Portfolio](https://etorres-revature.github.io/Portfolio/) has:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* a Home Page - 
 
-### `npm run eject`
+![PORTFOLIO home page](./portfolio-home.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* a Projects Page - 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![PORTFOLIO projects page](./portfolio-projects.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* an About Page - 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![PORTFOLIO about page](./portfolio-aboutme.png)
 
-## Learn More
+* a Resume Page - 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![PORTFOLIO home page](./portfolio-resume.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* a Contact Page - 
 
-### Code Splitting
+![PORTFOLIO home page](./portfolio-contact.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Guidelines for Contributing
 
-### Analyzing the Bundle Size
+If you have any thoughts or suggestions on how to improve my Portfolio, please feel free to contact me at the e-mail address below.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Tests
 
-### Making a Progressive Web App
+Test early; test often.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Technologies Used 
+### :computer: :computer: :computer: :computer: :computer: :computer: 
 
-### Advanced Configuration
+#### :memo: HTML5 :memo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**HTML5** is a markup language used for structuring and presenting content on the World Wide Web.  The goals are to improve the language with support for the latest multi-media and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices; and to remain backward compatible to older software.  Many new symantec features are included.
 
-### Deployment
+*HTML5* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/HTML5).</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### :art: CSS :art:
 
-### `npm run build` fails to minify
+**Cascading Style Sheets (CSS)** is a stylesheet language used for describing the presentation of a document written in a markup language (such as HTML5).  CSS is designed to enable the separation of presentation and content; including layout, colors, and fonts.  This separation improves content accessibility to provide more flexibility and control in the specification of presentation characteristics, enabling multiple web pages to share formatting by specifying relevant CSS in a separate file, which reduces complexity and repetition in the structural content (HTML), as well as enabling the file to be cached to improve the page load speed between the pages that share the file and its formatting.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice, and on Braille-based tactile devices. 
+
+*CSS* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).</a>
+
+#### :shoe: Bootstrap 4 :shoe:
+
+#### :sparkler: JavaScript :sparkler:
+
+**JavaScript (JS)** is one of the core technologies of the World Wide Web (along with HTML and CSS). It enables interactive web pages and is an essential part of web applications.  JS is a multi-faceted, scripting language that provides versatility through Application Programming Interfaces (APIs) and Document Object Model (DOM) manipulation, among others.
+
+*JavaScript* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/JavaScript).</a>
+
+#### :globe_with_meridians: NODE.js :globe_with_meridians:
+
+**NODE.js** is an open-source, cross-platform JavaScript runtime environment that execute JavaScript code outside a web browser.  NODE.js lets developers use JavaScript to write command line tools and for server-side scripting.  NODE.js represents a "Javascript everywhere" paradigm, unifying web-application development around a single programming language, rather than different programming languages for server- and client-side scripts.  
+
+*NODE.js* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/Node.js).</a>
+
+[Download Node.js](https://nodejs.org/en/).
+
+#### :dizzy: React.js :dizzy:
+
+**React.js** is an open source JavaScript library that is used for building interfaces for single-page applications, which handles the view layer for web and mobile apps.  React allows for the creation of reusable UI components.  This allows developers to create large web applications that change data, without reloading the page.
+
+*React.js* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://www.c-sharpcorner.com/article/what-and-why-reactjs/#:~:text=It's%20used%20for%20handling%20the,to%20create%20reusable%20UI%20components.&text=React%20allows%20developers%20to%20create,fast%2C%20scalable%2C%20and%20simple.).</a>
+
+
+### Author 
+
+This *React.js Portfolio* was built by :green_heart: Eric D. Torres :green_heart:
+
+## Questions
+
+Check out my [GitHub profile](https://github.com/etorres-revature).
+
+You can contact me by e-mail at etorresnotary@gmail.com for any additional questions and/ or clarifications you may need about the project.
+
+##### License
+
+[This application uses the **MIT License** found here](./LICENSE).
+
+**[This README.md file generated with my NODE.js README Generator app.](https://github.com/etorres-revature/NODEjs_README.md_Generator)**
