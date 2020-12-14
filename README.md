@@ -48,7 +48,7 @@ The [Portfolio](https://etorres-revature.github.io/Portfolio/) has:
 
 - a Contact Page -
 
-![PORTFOLIO home page](./portfolio-contact.png)
+![PORTFOLIO home page](./screenshots/portfolio-contact.png)
 
 ## Guidelines for Contributing
 
