@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import Card from "../card/Card";
 
 import githubFinder from "./screenshots/github-finder.png";
-import userDirectory from "./screenshots/ud-home.png";
+import googleBooks from "./screenshots/google-books-search.png";
 import docketMaster from "./screenshots/docketmaster.png";
 import burger from "./screenshots/eat-dat-burger-home.png";
 import portfolioEdge from "./screenshots/stock-app.png";
@@ -31,13 +31,12 @@ class Carousel extends Component {
         },
         {
           id: 1,
-          title: "User Directory",
-          desc: "Filter and sort users from a randomuser.me API call",
-          imgSrc: userDirectory,
-          githubLink:
-            "https://github.com/etorres-revature/React-User_Directory",
-          deployedLink:
-            "https://etorres-revature.github.io/React-User_Directory/",
+          title: "Google Books API Search",
+          desc:
+            "Search and save information about books of interest from the Google Books API",
+          imgSrc: googleBooks,
+          githubLink: "https://github.com/etorres-revature/React-Google_Books",
+          deployedLink: "https://lit-citadel-69293.herokuapp.com",
           selected: false,
         },
         {
