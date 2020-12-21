@@ -80,8 +80,8 @@ class App extends Component {
               render={() => <Contact title={this.state.contact.title} />}
             />
           </Switch>
-          <MyFooter />
         </Container>
+        <MyFooter />
       </Router>
     );
   }
