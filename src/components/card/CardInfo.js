@@ -23,7 +23,7 @@ const CardInfo = (props) => {
       </a>
       <a
         className="alignleft mt-1"
-        href={props.githubLink}
+        href={props.deployedLink}
         target="_blank"
         rel="noopener noreferrer"
       >
